@@ -1,0 +1,52 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#00E676</color>
+
+    <!-- Green Shades -->
+    <color name="mintGreen">#98FF98</color>
+    <color name="limeGreen">#32CD32</color>
+    <color name="neonGreen">#39FF14</color>
+    <color name="forestGreen">#228B22</color>
+
+    <!-- Blue Shades -->
+    <color name="skyBlue">#87CEEB</color>
+    <color name="deepBlue">#1E3A8A</color>
+    <color name="aquaBlue">#00FFFF</color>
+    <color name="midnightBlue">#191970</color>
+
+    <!-- Red and Orange Shades -->
+    <color name="sunsetOrange">#FF5E57</color>
+    <color name="neonRed">#FF073A</color>
+    <color name="darkRed">#8B0000</color>
+    <color name="coral">#FF7F50</color>
+    <color name="orangeGlow">#FFA500</color>
+
+    <!-- Purple and Pink -->
+    <color name="lavender">#E6E6FA</color>
+    <color name="neonPurple">#B026FF</color>
+    <color name="hotPink">#FF69B4</color>
+    <color name="deepPurple">#673AB7</color>
+
+    <!-- Yellow and Gold -->
+    <color name="lightYellow">#FFFFE0</color>
+    <color name="gold">#FFD700</color>
+    <color name="neonYellow">#FFFF33</color>
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="darkGray">#2E2E2E</color>
+    <color name="transparentBlack">#66000000</color>
+
+    <!-- Special Effects -->
+    <color name="glowGreen">#AAFF00</color>
+    <color name="glassEffect">#33FFFFFF</color>
+    <color name="darkGlass">#33000000</color>
+
+    <!-- Dark themes Colors-->
+    <color name="green_dark">#007F0E</color>
+    <color name="darkTheme">#121212</color> <!-- Add this line -->
+</resources>

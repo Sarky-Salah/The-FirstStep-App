@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/refreshButton"
+        android:title="@string/refresh"
+        android:icon="@drawable/refresh_24" />
+    <item
+        android:id="@+id/shareAppButton"
+        android:title="@string/share_app"
+        android:icon="@android:drawable/ic_menu_share" />
+    <item
+        android:id="@+id/nav_exit"
+        android:title="@string/exit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Allow access to the APK file -->
+    <external-path
+        name="root"
+        path="." />
+</paths>

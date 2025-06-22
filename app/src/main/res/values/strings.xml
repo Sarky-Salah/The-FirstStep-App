@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">thefirststep</string>
+    <string name="status">Status</string>
+    <string name="history">History</string>
+    <string name="submit">Submit</string>
+    <string name="prosthetic_type">Prosthetic Type</string>
+    <string name="contact">Contact</string>
+    <string name="name">Name</string>
+    <string name="enter_beneficiary_s_details">Enter Beneficiary\'s Details</string>
+    <string name="refresh">Refresh</string>
+    <string name="new_beneficiary">New Beneficiary</string>
+    <string name="add_new_beneficiary">Add New Beneficiary</string>
+    <string name="update">Update</string>
+    <string name="back">Back</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="beneficiary_contact">Beneficiary Contact</string>
+    <string name="key_numeric">Key (numeric)</string>
+    <string name="share_app">Share App</string>
+    <string name="the_firststep">The FirstStep</string>
+    <string name="exit">Exit</string>
+    <string name="beneficiaries_list">beneficiaries List</string>
+    <string name="developed_by_the_one_developers">Developed by The-One Developers</string>
+    <string-array name="SpinnerStatus">
+        <item>New</item>
+        <item>Returning</item>
+    </string-array>
+</resources>

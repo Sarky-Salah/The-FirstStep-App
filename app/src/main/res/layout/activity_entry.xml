@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#66000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#66000000" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_beneficiary"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <!-- Integer Key Input -->
+        <EditText
+            android:id="@+id/editTextKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/key_numeric"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/uploadedImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="#33474141"
+            android:layout_gravity="center"
+            android:contentDescription="Uploaded Image"
+            android:scaleType="centerCrop"
+            android:layout_margin="16dp" />
+
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/name"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/beneficiary_contact"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextProstheticType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/prosthetic_type"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <Spinner
+            android:id="@+id/SpinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/status"
+            android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/history"
+            android:background="@drawable/border"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:lines="5" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
