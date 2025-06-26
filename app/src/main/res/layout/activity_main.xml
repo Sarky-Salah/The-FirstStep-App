@@ -14,11 +14,39 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:background="@color/black"
             android:title="@string/the_firststep"
             android:titleTextColor="@android:color/white"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/downloadPdfButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/download"
+                android:layout_gravity="end"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Download PDF"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"/>
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Search"
+                android:iconifiedByDefault="true"
+                android:queryHint="Search beneficiaries"
+                android:background="#FFFFFF" />
+
+        </LinearLayout>
 
         <!-- RecyclerView -->
         <androidx.recyclerview.widget.RecyclerView

@@ -21,8 +21,34 @@
     <string name="exit">Exit</string>
     <string name="beneficiaries_list">beneficiaries List</string>
     <string name="developed_by_the_one_developers">Developed by The-One Developers</string>
+    <string name="phone_contact">Phone Contact</string>
+    <string name="side_of_amputation">Side Of Amputation:</string>
+    <string name="level_of_amputation">Level Of Amputation</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="uploaded_image">Uploaded Image</string>
+    <string name="year_of_amputation">Year Of Amputation</string>
+    <string name="contact_of_next_of_kin">Contact Of Next Of Kin</string>
+    <string name="name_of_next_of_kin">Name Of Next Of Kin</string>
+    <string name="address">Address</string>
+    <string name="occupation">Occupation</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
     <string-array name="SpinnerStatus">
         <item>New</item>
         <item>Returning</item>
+    </string-array>
+    <string-array name="levelOfAmputation">
+        <item>Below Elbow</item>
+        <item>Above Elbow</item>
+        <item>Shoulder</item>
+    </string-array>
+    <string-array name="sideOfAmputation">
+        <item>Left</item>
+        <item>Right</item>
+        <item>Bilateral</item>
+    </string-array>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
     </string-array>
 </resources>

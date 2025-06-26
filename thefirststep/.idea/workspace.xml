@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b44e90-02b3-4d94-9542-865be982fe4a" name="Changes" comment="" />
+    <list default="true" id="59b44e90-02b3-4d94-9542-865be982fe4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/thefirststep/Beneficiary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/thefirststep/Beneficiary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/thefirststep/BeneficiaryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/thefirststep/BeneficiaryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/thefirststep/EntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/thefirststep/EntryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_entry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_entry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/beneficiary_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/beneficiary_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +50,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sarky-Salah"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sarky-Salah/The-FirstStep-App.git",
+    "accountId": "1e34a620-01c7-404c-9256-bb6897cad7e2"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -59,6 +82,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/gradle-8.10",

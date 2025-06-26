@@ -24,7 +24,6 @@
             android:id="@+id/progressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
             android:visibility="gone" />
 
         <!-- Integer Key Input -->
@@ -41,22 +40,33 @@
 
         <ImageView
             android:id="@+id/uploadedImageView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="300dp"
             android:background="#33474141"
             android:layout_gravity="center"
-            android:contentDescription="Uploaded Image"
+            android:contentDescription="@string/uploaded_image"
             android:scaleType="centerCrop"
             android:layout_margin="16dp" />
-
 
         <Button
             android:id="@+id/selectImageBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Upload Image"
+            android:text="@string/upload_image"
             android:paddingBottom="20dp"
             android:layout_gravity="center"/>
+
+        <Spinner
+            android:id="@+id/SpinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/status"
+            android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
 
         <EditText
             android:id="@+id/editTextName"
@@ -71,11 +81,48 @@
             android:layout_marginBottom="20dp"/>
 
         <EditText
+            android:id="@+id/editTextBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Birthdate"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerTextGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/side_of_amputation"
+            android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextOccupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/occupation"
+            android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
             android:id="@+id/editTextContact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
-            android:hint="@string/beneficiary_contact"
+            android:hint="@string/phone_contact"
             android:inputType="phone"
             android:padding="15dp"
             android:textColor="@color/white"
@@ -83,23 +130,71 @@
             android:layout_marginBottom="20dp"/>
 
         <EditText
-            android:id="@+id/editTextProstheticType"
+            android:id="@+id/editTextAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:hint="@string/prosthetic_type"
+            android:hint="@string/address"
             android:inputType="text"
             android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextNameKin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_of_next_of_kin"
+            android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextContactKin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_of_next_of_kin"
+            android:inputType="number"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
             android:textColor="@color/white"
             android:background="@drawable/border"
             android:layout_marginBottom="20dp"/>
 
         <Spinner
-            android:id="@+id/SpinnerStatus"
+            android:id="@+id/sideOfAmputation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/status"
+            android:hint="@string/side_of_amputation"
             android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <Spinner
+            android:id="@+id/levelOfAmputation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/level_of_amputation"
+            android:inputType="text"
+            android:padding="15dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextYearOfAmputation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/year_of_amputation"
+            android:inputType="number"
             android:padding="15dp"
             android:spinnerMode="dropdown"
             android:textColor="@color/white"
@@ -131,6 +226,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/update"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
             android:visibility="gone"
             android:layout_marginBottom="10dp"/>
 
@@ -139,6 +236,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/back"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
             android:layout_gravity="center"/>
 
     </LinearLayout>
