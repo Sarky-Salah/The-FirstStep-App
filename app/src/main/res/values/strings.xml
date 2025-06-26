@@ -33,6 +33,16 @@
     <string name="occupation">Occupation</string>
     <string name="gender">Gender</string>
     <string name="age">Age</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="search">Search</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="name_n_o_k">Name \'N.O.K\':</string>
+    <string name="contact_n_o_k">Contact \'N.O.K\':</string>
+    <string name="side_of_amput">Side Of Amput:</string>
+    <string name="level_of_amput">Level Of Amput:</string>
+    <string name="year_of_amput">Year Of Amput:</string>
+    <string name="picture">Picture</string>
+    <string name="_2025_the_one_developers">© 2025 The-One Developers</string>
     <string-array name="SpinnerStatus">
         <item>New</item>
         <item>Returning</item>

@@ -32,7 +32,7 @@
                 android:src="@drawable/download"
                 android:layout_gravity="end"
                 android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Download PDF"
+                android:contentDescription="@string/download_pdf"
                 android:padding="8dp"
                 android:layout_marginStart="8dp"/>
 
@@ -41,7 +41,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Search"
+                android:hint="@string/search"
                 android:iconifiedByDefault="true"
                 android:queryHint="Search beneficiaries"
                 android:background="#FFFFFF" />

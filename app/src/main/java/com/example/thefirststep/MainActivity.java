@@ -47,11 +47,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
-    private NavigationView navigationView;
-    private ActionBarDrawerToggle toggle;
     private static final int ENTRY_REQUEST_CODE = 1;
     FloatingActionButton  goToEntryButton;
-    private RecyclerView recyclerView;
     private BeneficiaryAdapter adapter;
     private ArrayList<Beneficiary> beneficiaryList = new ArrayList<>();
 
@@ -70,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         // UI references
         goToEntryButton = findViewById(R.id.goToEntryButton);
-        recyclerView = findViewById(R.id.recyclerViewMain);
+        RecyclerView recyclerView = findViewById(R.id.recyclerViewMain);
         androidx.appcompat.widget.SearchView searchView = findViewById(R.id.searchView);
 
         searchView.setIconified(true);
@@ -87,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         drawerLayout = findViewById(R.id.drawerLayout);
-        navigationView = findViewById(R.id.navigationView);
+        NavigationView navigationView = findViewById(R.id.navigationView);
 
         ImageButton downloadPdfButton = findViewById(R.id.downloadPdfButton);
         downloadPdfButton.setOnClickListener(v -> {
@@ -96,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // ✅ Properly initialize the toggle AFTER setSupportActionBar
-        toggle = new ActionBarDrawerToggle(
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this,
                 drawerLayout,
                 toolbar,
@@ -165,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         TextView footer = new TextView(this);
-        footer.setText("© 2025 The-One Developers");
+        footer.setText(R.string._2025_the_one_developers);
         footer.setTextColor(getResources().getColor(android.R.color.darker_gray));
         footer.setTextSize(12);
         footer.setPadding(20, 60, 20, 20);

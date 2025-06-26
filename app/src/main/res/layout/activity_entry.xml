@@ -26,7 +26,6 @@
             android:layout_height="wrap_content"
             android:visibility="gone" />
 
-        <!-- Integer Key Input -->
         <EditText
             android:id="@+id/editTextKey"
             android:layout_width="match_parent"
@@ -84,7 +83,7 @@
             android:id="@+id/editTextBirthDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Birthdate"
+            android:hint="@string/birthdate"
             android:focusable="false"
             android:clickable="true"
             android:inputType="none"

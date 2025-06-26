@@ -18,6 +18,7 @@
             android:layout_height="80dp"
             android:scaleType="centerCrop"
             android:layout_marginEnd="10dp"
+            android:contentDescription="@string/picture"
             android:src="@drawable/person_24" />
 
         <LinearLayout
@@ -39,7 +40,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Status: "
+                    android:text="@string/status"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textStatus"
                     android:layout_width="wrap_content"
@@ -53,7 +54,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Name: "
+                    android:text="@string/name"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textName"
                     android:layout_width="wrap_content"
@@ -69,7 +70,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Birthdate: "
+                    android:text="@string/birthdate"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textBirthdate"
                     android:layout_width="wrap_content"
@@ -83,7 +84,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gender: "
+                    android:text="@string/gender"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textGender"
                     android:layout_width="wrap_content"
@@ -97,7 +98,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Occupation: "
+                    android:text="@string/occupation"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textOccupation"
                     android:layout_width="wrap_content"
@@ -111,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Contact: "
+                    android:text="@string/contact"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textContact"
                     android:layout_width="wrap_content"
@@ -125,7 +126,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Address: "
+                    android:text="@string/address"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textAddress"
                     android:layout_width="wrap_content"
@@ -139,7 +140,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Name 'N.O.K': "
+                    android:text="@string/name_n_o_k"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/nextOfKinName"
                     android:layout_width="wrap_content"
@@ -153,7 +154,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Contact 'N.O.K': "
+                    android:text="@string/contact_n_o_k"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/nextOfKinContact"
                     android:layout_width="wrap_content"
@@ -167,7 +168,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Side Of Amput: "
+                    android:text="@string/side_of_amput"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/sideOfAmputation"
                     android:layout_width="wrap_content"
@@ -181,7 +182,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Level Of Amput: "
+                    android:text="@string/level_of_amput"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/levelOfAmputation"
                     android:layout_width="wrap_content"
@@ -195,7 +196,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Year Of Amput: "
+                    android:text="@string/year_of_amput"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/yearOfAmputation"
                     android:layout_width="wrap_content"
@@ -209,7 +210,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="History: "
+                    android:text="@string/history"
                     android:textStyle="bold"/>
                 <TextView android:id="@+id/textHistory"
                     android:layout_width="wrap_content"
